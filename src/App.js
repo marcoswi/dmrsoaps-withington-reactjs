@@ -8,7 +8,7 @@ export default function App() {
   return (
     < >
     <NavBar/>
-    <ItemListContainer greeting={"Hola!"} />
+    <ItemListContainer greeting={"ItemListContainer"} />
     </>
   );
 }
