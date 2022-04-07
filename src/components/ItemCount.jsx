@@ -26,10 +26,6 @@ export default function ItemCount ({ stock, initial }) {
     return (
         <>
         <div className="card">
-            <div>
-                <p className="card_title">Producto</p>
-            </div>
-
             <div className="card_moreLess">
                 <button onClick={less}>
                     <span className="material-icons">remove</span>
