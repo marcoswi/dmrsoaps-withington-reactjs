@@ -4,7 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
-import ItemCount from "./ItemCount.jsx";
+
 
 export default function ActionAreaCard({id, nombre, precio, imagen}) {
     return (
@@ -23,7 +23,7 @@ export default function ActionAreaCard({id, nombre, precio, imagen}) {
             <Typography variant="body2" color="text.secondary">
                 {precio}
             </Typography>
-            <div><ItemCount stock= {5} initial= {1}/></div>
+            <button>Ver detalle</button>
             </CardContent>
         </CardActionArea>
         </Card>
